@@ -15,7 +15,7 @@ const links = [
   {
     id: 2,
     title: "Portfolio",
-    url: "/portfolio",
+    url: "https://eddie710.github.io/Year-1-Portfolio-Projects/",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-    West-MEC Coding
+      Next.Js Project
       </Link>
       <div className={styles.links}>
        

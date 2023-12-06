@@ -8,17 +8,14 @@ export default function Home() {
     <div className={styles.container}>
     <div className={styles.item}>
       <h1 className={styles.title}>
-        Better design for your digital products.
+        Edward Dana's Portfolio
       </h1>
       <p className={styles.desc}>
-        Turning your Idea into Reality. We bring together the teams from the
-        global tech industry.
+        Check out my portfolio please!
       </p>
-      {/* <Button url="/portfolio" text="See Our Works"/> */}
+      <Button url="https://eddie710.github.io/Year-1-Portfolio-Projects/" text="See My Portfolio" />
     </div>
-    <div className={styles.item}>
-      <Image src={Hero} alt="" className={styles.img} />
-    </div>
+    
   </div>
 
   )
